@@ -1,0 +1,27 @@
+body {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  /* background-color: coral; */
+}
+label {
+  font-weight: bold;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.no-underline li {
+  border: none;
+}
+
+.form {
+  background-color: blue;
+  padding: 20px;
+  color: white;
+}
+
+.absolute-right {
+  right: 5px;
+}
