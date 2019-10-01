@@ -23,5 +23,9 @@ a:hover {
 }
 
 .absolute-right {
-  right: 5px;
+  right: 15px;
+}
+
+.front {
+  z-index: 10;
 }
