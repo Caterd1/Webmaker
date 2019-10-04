@@ -15,16 +15,19 @@
   src="https://kit.fontawesome.com/4bfc9621a9.js"
   crossorigin="anonymous">
   </script>
-    <title>Document</title>
+    <title>Edit Widget</title>
 </head>
-<body>
+   <body>
         <nav class="navbar navbar-light bg-light fixed-top">
                 <div>
-                  <a
-                  class="text-dark"href="PageList.html"><i class="fas fa-chevron-left"></i></a>
-                  <span class="navbar-brand h1 mb-0 m1-4">Widget Edit</span>
+                  <a href="widgetList.html" class="text-dark">
+                 <i class="fas fa-chevron-left"></i>
+                  </a>
+                  <span class="navbar-brand h1 mb-0 m1-4">Edit Widget</span>
                   </div>
-                  <a class="text-dark" href="PageList.html"><i class="fas fa-check"></i></a> 
+                  <a href="WidgetList.html" class="text-dark">
+                    <i class="fas fa-check"></i>
+                  </a> 
             </nav>
             <main class="container">
                 <form>
@@ -33,45 +36,47 @@
                        <input 
                          type="text"
                          class="form-control"
-                         id="title"
-                         placeholder=""
-                    />
+                         id="name"
+                         placeholder="Enter Widget Name..."
+                         class="form-control">
+                      />
+                    </div>   
                     <div class="form-group">
                        <label for="text">Text</label>
                        <input
                          type="text"
                          class="form-control"
                          id="text"
-                         placeholder=""
+                         placeholder="Enter Widget Text..."
                       />
+                     </div>
                      </div class="form-group">
                       <label for="URL">URL</label>
                       <input
                         type="text"
                         class="form-control"
-                        id="title"
-                        placeholder="https://youtu.be/uLWLashCXHE"
+                        id="URL"
+                        placeholder="https://youtube./uLWLashCXHE"
                       />
+                      </div> 
                       <div class="form-group">
                         <label for="Width">Width</label>
                         <input
-                        type="text"
+                        type="range"
                         class="form-control"
-                        id="title"
-                        placeholder=""
+                        id="width"
+                        min="1"
+                        max="100"
                        /> 
                       </div>
-                    </label>
-                    <a href="PageList.html" class="btn btn-danger btn-block">Delete</a>    
+                    <button class="btn btn-danger btn-block">Delete</button>   
                   </form>
                 </main>
                 <footer class="navbar navbar-light bg-light fixed-bottom">
                    <span></span>
-                   <a href=".../user/Profile.html" class="text-dark">
+                   <a href="../user/Profile.html" class="text-dark">
                      <i class="fas fa-user"></i>          
-                </a> 
-                </footer>       
-                    </div>
-            </main>   
-</body>
+                   </a> 
+                </footer>      
+    </body>
 </html>
